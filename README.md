@@ -12,7 +12,6 @@ The Dine-In project transforms traditional restaurant workflows into a seamless 
 *   **Menu Agility**: Admin tools to update categories, toggle availability based on time windows (breakfast/dinner items), and manage pricing instantly.
 *   **Hybrid Payment Flow**: Supports digital bill viewing with external payment verification (UPI QR/Cash), bridging the gap between digital ordering and physical settlement.
 
----
 
 ##  Technical Architecture
 
@@ -36,9 +35,16 @@ The system is built with a decoupled, modular architecture using a modern TypeSc
 *   **Logic**: QR-based table binding and session persistence that maintains orders across page refreshes.
 *   **UI**: Minimalist, high-performance interface focused on menu discoverability and order clarity.
 
----
 
 ##  Performance & Scalability
 *   **Caching Strategy**: Centralized API slice with tag-based invalidation ensures that a status update on one screen (e.g., Table Master) is instantly reflected everywhere else (e.g., Dashboard).
 *   **Clean Code**: Decoupled modules ensure that features like "Heatmap" or "Advanced Reservations" can be added without regressing existing ordering flows.
 *   **SEO & UX**: Implementation of semantic HTML5 and SEO best practices for the Guest UI and high-density information layout for the Admin UI.
+
+## License
+This project is licensed under CC BY-NC 4.0.
+
+What this means: 
+> * Anyone is free to share and adapt the code for personal or educational use.
+> * Users must give appropriate credit to the original work.
+> * Users Cannot use this material for commercial purposes without my exclusive permission.
