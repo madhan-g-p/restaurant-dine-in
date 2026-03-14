@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@scarf/scarf'
+  - bcrypt
+  - mongodb-memory-server
+  - unrs-resolver
